@@ -200,7 +200,7 @@ nav ul :hover{
 
 
 }
-@media (mmax-width: 700px){
+@media (mmax-width: 800px){
     #productos{
 
  background-color: lightpink;
@@ -217,7 +217,22 @@ nav ul :hover{
 
         }
 }
+@media (max-width: 800px){
 
+    footer{
+
+      
+            display: flex;
+            background-color: navy;
+            width: 15%;
+            height: 12px;       
+           align-items: center;
+            padding: 9px  2px;
+            justify-content: center;
+            top:600%;
+    }
+
+}
 
 @media (max-width: 800px){
     nav ul {
