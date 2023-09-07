@@ -234,24 +234,62 @@ nav ul :hover{
     }
 
 }
+@media (max-width: 800px){
+main > *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+@media (max-width: 800px){
+    nav ul li {
 
+        width: 30%;
+        padding:37px;
+        
+        
+        margin-left: 5px;
+
+display: flex;
+      padding: 21px;
+      border-radius: px;
+      
+      display:list-item
+display: inline-block;
+        
+    }
+}
 @media (max-width: 800px){
     nav ul {
-
-        width: 20%;
-        padding: 5px;
-        box-sizing: border-box;
-        margin-top: 120%;
-        margin-left: 200%;
-        right: 10%;
-        display: flex;
-      
-        
+        top:-90%;
+       left:0% ;
+       right:190%; 
+      display: flex;
     }
 }
 /* 
     Creamos un div para contener a los artículos y ponerlos de a 2 porque tienen ancho de 50%
 */
+
+@media (max-width: 800px){
+    nav ul {
+
+        width: 162%;
+        height: 10%;
+        border-bottom: 10px;
+        padding:  10% 10% 15px 10px;
+      
+border-left: ;
+        margin-top: 120%;
+        margin-left: 0%;
+        right: 10%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      
+        
+    }
+}
 
 @keyframes animar {
     /* 
