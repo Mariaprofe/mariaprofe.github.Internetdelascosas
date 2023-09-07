@@ -211,6 +211,7 @@ nav ul :hover{
 @media (max-width: 800px){
 
     #productos{
+        display: block;
         width: 100%;
         padding: 10px;
         box-sizing: border-box;
@@ -432,6 +433,9 @@ footer{
     width: 100%;       
     text-align: center; 
     padding: 3px  0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer small{
