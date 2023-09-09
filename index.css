@@ -191,7 +191,7 @@ nav ul :hover{
                
     
 
-  
+/*  
 @media (mmix-width: 700px){
     nav ul {
         background-color: lightpink;
@@ -199,16 +199,16 @@ nav ul :hover{
     }
 
 
-}
-@media (mmax-width: 800px){
+}*/
+/*@media (mmax-width: 1024px){
     #productos{
 
  background-color: lightpink;
         font-size: 2rem;
 
 }
-}
-@media (max-width: 800px){
+}*/
+/*@media (max-width: 800px){
 
     #productos{
         display: block;
@@ -217,8 +217,8 @@ nav ul :hover{
         box-sizing: border-box;
 
         }
-}
-@media (max-width: 800px){
+}*/
+@media (max-width: 1024px){
 
     footer{
 
@@ -234,14 +234,14 @@ nav ul :hover{
     }
 
 }
-@media (max-width: 800px){
+@media (max-width: 1024px){
 main > *{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 }
-@media (max-width: 800px){
+@media (max-width: 1024px){
     nav ul li {
 
         width: 30%;
@@ -259,7 +259,7 @@ display: inline-block;
         
     }
 }
-@media (max-width: 800px){
+@media (max-width: 1024px){
     nav ul {
         top:-90%;
        left:0% ;
@@ -271,7 +271,7 @@ display: inline-block;
     Creamos un div para contener a los artículos y ponerlos de a 2 porque tienen ancho de 50%
 */
 
-@media (max-width: 800px){
+@media (max-width: 1024px){
     nav ul {
 
         width: 162%;
@@ -279,7 +279,7 @@ display: inline-block;
         border-bottom: 10px;
         padding:  10% 10% 15px 10px;
       
-border-left: ;
+        border-left: 0 %;
         margin-top: 120%;
         margin-left: 0%;
         right: 10%;
@@ -303,6 +303,20 @@ border-left: ;
     from{width: 70px;height: 70px;opacity:1;}
     to {width: 970x;height: 600;opacity:1;}
 
+}
+@media (max-width:1024px){
+    body{
+        font-size: 1rem;
+    }
+    #productos{
+        display: none;
+    }
+    main article{
+        flex-wrap: wrap;
+    }
+    article{
+        width: 90%;
+    }
 }
 #productos{
     
