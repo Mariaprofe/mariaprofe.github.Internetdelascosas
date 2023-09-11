@@ -32,8 +32,12 @@
     margin: 10px 10%;
 }
 .flex{
+  
+  padding: 10px;
     display:flex;
-    justify-content: center;
+  margin-bottom: 1%;
+  justify-content: center;
+    align-items: center;
 }
 .flex > *{
     margin: 8px;
@@ -49,7 +53,12 @@
 /* 
     Hablamos a los elementos que tienen las clases btn y agregar
 */
+#botones{
 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .btn.agregar{
     background-color: darkblue;
     color: white;
@@ -63,7 +72,7 @@
     background-color: darkred;
     color: white;
 =======
-@import url('https://fonts.googleapis.com/css2?family=Hind&family=Libre+Franklin:wght@300;900&display=swap');
+
 #contenedor{
     text-align: center;
     font-family: 'Libre Franklin', sans-serif;
@@ -93,11 +102,13 @@
 
 .producto img{
     width: 80%;
-    margin: 10px 10%;
+    margin: 10px 10px;
 }
 .flex{
+  
     display:flex;
     justify-content: center;
+   
 }
 .flex > *{
     margin: 8px;
@@ -126,5 +137,4 @@
 .btn.quitar{
     background-color: darkred;
     color: white;
->>>>>>> 345a7a60e3902c1a9593c7139ff188c80361037e
 }
