@@ -108,35 +108,37 @@ h1{
 }
 
 nav{
-   
-
-    display: flex;
-    
-    width:70%;    
-   
-    padding:2% ;
-
-   
-    
-   
-
-}
-
- nav ul{
- 
-   
-    margin-top:20%;
-    justify-content:space-evenly;
+  
+    margin-top: 10%;
+    height: 202px;
     width:100%;
-    border-radius: 3px;
- 
+}
+ nav ul {
+    
+  display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+   
+   
+   
+    
+    
+   
+    padding: 1px;
+    border-radius:0px;
+   
+
+
     list-style: none; 
    
    
-  
-    display: flex;
+    margin-top: 4%;
+    height:1px;
+    width:100%;
     
-    align-items: center; 
+    
+   
     font-size: 1.45rem;  
    
     /* 
@@ -149,25 +151,37 @@ nav{
     
   
  }
+ nav ul li{
+    
+    background-color: rgb(237, 231, 223);
+    color: rgb(222, 123, 47);
+    padding:0%  0%  2px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+  top:300%;
+    font-size: 1.3rem;
+    border-radius:6px;
 
-nav ul li a{
+ }
+ nav ul li a{
   
     background-color: rgb(240, 230, 216);
     color: rgb(222, 123, 47);
-    padding: 0%  5% 5% 10%;
+    padding: 10%  5% 5% 20%;
     text-decoration: none;
     justify-content: center;
     align-items: center;
   
     font-size: 1.4rem;
-   
-    box-shadow: 2px 2px 10px rgb(46, 52, 46),-2px -2px 18px rgba(62, 59, 59,0.5) inset;
+    border-radius:10px;
+    box-shadow: 2px 2px 20px rgb(46, 52, 46),-2px -2px 18px rgba(62, 59, 59,0.5) inset;
 }
 
 nav ul :hover{
     /* 
         background-color: rgb(236, 176, 176);
-  
+  height:120px;
         Alineación horizontal
       
        transform: rotate(10deg) translate(10px,70px) skew(15deg);
@@ -181,15 +195,21 @@ nav ul :hover{
        background-color: coral;
        transform: scale(0.95);
        box-shadow: 0 0 4px silver, 0 0 4px rgb(197, 188, 188) inset;
-       
- 
+      
 
 }
 
 
 
-               
+
     
+
+
+
+
+
+
+
 
 /*  
 @media (mmix-width: 700px){
@@ -218,7 +238,7 @@ nav ul :hover{
 
         }
 }*/
-@media (max-width: 1024px){
+@media (max-width: 800px){
 
     footer{
 
@@ -234,62 +254,51 @@ nav ul :hover{
     }
 
 }
-@media (max-width: 1024px){
+@media (max-width: 800px){
 main > *{
     display: flex;
-    align-items: center;
+    align-items:left;
     justify-content: center;
-}
-}
-@media (max-width: 1024px){
-    nav ul li {
+ 
 
-        width: 30%;
-        padding:37px;
-        
-        
-        margin-left: 5px;
 
-display: flex;
-      padding: 21px;
-      border-radius: px;
+}
+
+}
+@media (max-width: 800px){
+    nav ul  {
+
+        width: 100px;
+        padding:0px;
+        margin-top: 46px;
+        flex-wrap: wrap;
+        margin-left: 0px;
+
+
+
+      padding: 11px;
       
-      display:list-item
-display: inline-block;
+      
+      
+    
         
     }
 }
-@media (max-width: 1024px){
-    nav ul {
-        top:-90%;
-       left:0% ;
-       right:190%; 
+@media (max-width:800px){
+    nav ul li {
+        margin-top:10%;
+       left:10% ;
+       right:10%; 
       display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-content: center;
+     
     }
 }
 /* 
     Creamos un div para contener a los artículos y ponerlos de a 2 porque tienen ancho de 50%
 */
-
-@media (max-width: 1024px){
-    nav ul {
-
-        width: 162%;
-        height: 10%;
-        border-bottom: 10px;
-        padding:  10% 10% 15px 10px;
-      
-        border-left: 0 %;
-        margin-top: 120%;
-        margin-left: 0%;
-        right: 10%;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-      
-        
-    }
-}
 
 @keyframes animar {
     /* 
@@ -301,10 +310,10 @@ display: inline-block;
     */
     
     from{width: 70px;height: 70px;opacity:1;}
-    to {width: 970x;height: 600;opacity:1;}
+    to {width: 800x;height: 600;opacity:1;}
 
 }
-@media (max-width:1024px){
+@media (max-width:800px){
     body{
         font-size: 1rem;
     }
