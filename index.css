@@ -10,10 +10,11 @@ body{
        text-align:center;
        font-family: Verdana, Geneva, Tahoma, sans-serif;
        flex-wrap: wrap;
-       height:100vh; 
+       height:100%; 
        margin: 0 auto;
        width: 80%;
        justify-content: center;
+      display: flex;
     }
     
     
@@ -121,7 +122,7 @@ nav{
     align-items: center;
    
    
-   
+    flex-wrap: wrap;
     
     
    
@@ -150,6 +151,13 @@ nav{
     
     
   
+ }
+ main{
+    flex-direction: row;
+    margin-top: 19%;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
  }
  nav ul li{
     
@@ -259,7 +267,8 @@ main > *{
     display: flex;
     align-items:left;
     justify-content: center;
- 
+    
+    
 
 
 }
@@ -340,7 +349,7 @@ main > *{
 
   justify-content: space-evenly;
     width:970px;
-    height: 600px;
+    height: 380px;
 
  /* 
         Establecemos el estado de las propiedades con el que queda una vez terminada la animación
